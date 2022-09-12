@@ -37,11 +37,11 @@ const Welcome = () => {
         <div className="flex w-full justify-center items-center">
           <div className="flex md:flex-row flex-col items-start justify-between md:p-10 py-10 px-4">
             <div className="flex flex-1 justify-start flex-col md:mr-10">
-            <h1 className='text-3xl sm:text-5xl text-white text-gradient py-1'>
-                Support Community <br /> Projects
+            <h1 className='text-3xl sm:text-4xl text-white text-gradient py-1'>
+                Participate in <br /> Community Projects
             </h1>
             <p className='text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base'>
-                Discover and support decentralized projects using the ethereum network.
+                Discover, support and submit decentralized projects using the ethereum network.
             </p>
             {!currentAccount && (
             <button
@@ -53,24 +53,24 @@ const Welcome = () => {
             </button>
             )}
                 <div className='grid sm:grid-cols-3 grid-cols-2 w-full mt-10'>
-                    <div className={`rounded-tl-2xl ${commonStyles}`}>
-                        Transparency
-                    </div>
-                        <div className={commonStyles}>
-                        Sustainability
-                        </div>
-                        <div className={`rounded-tr-2xl ${commonStyles}`}>
-                        Support  
-                        </div>
-                        <div className={`rounded-bl-2xl ${commonStyles}`}>
-                        Community 
-                        </div>
-                        <div className={commonStyles}>
-                        Decentralized 
-                        </div>
-                        <div className={`rounded-br-2xl ${commonStyles}`}>
-                        Blockchain
-                        </div>
+                        <a href="https://decentralized-projects.com" className={`rounded-tl-2xl ${commonStyles}`}>
+                        Education
+                        </a>
+                        <a href="https://decentralized-projects.com" className={commonStyles}>
+                        Biodiversity
+                        </a>
+                        <a href="https://decentralized-projects.com" className={`rounded-tr-2xl ${commonStyles}`}>
+                        Local Development   
+                        </a>
+                        <a href="https://decentralized-projects.com" className={`rounded-bl-2xl ${commonStyles}`}>
+                        Solidarity 
+                        </a>
+                        <a href="https://decentralized-projects.com" className={commonStyles}>
+                        Fair Trade
+                        </a>
+                        <a href="https://decentralized-projects.com" className={`rounded-br-2xl ${commonStyles}`}>
+                        DAO
+                        </a>
                 </div>
             </div>
 
