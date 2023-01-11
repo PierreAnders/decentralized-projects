@@ -15,35 +15,35 @@ body {
 
 .gradient-bg-welcome {
   background-color:#0f0e13;
-  background-image: 
-    radial-gradient(at 0% 0%, rgb(103, 103, 103) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, rgb(129, 129, 129) 0, transparent 50%), 
+  background-image:
+    radial-gradient(at 0% 0%, rgb(103, 103, 103) 0, transparent 50%),
+    radial-gradient(at 50% 0%, rgb(129, 129, 129) 0, transparent 50%),
     radial-gradient(at 100% 0%, rgb(40, 40, 40) 0, transparent 50%);
 }
 
 .gradient-bg-services {
-  background-color:#0f0e13;
-  background-image: 
-    radial-gradient(at 0% 0%, rgb(15, 15, 15) 0, transparent 50%), 
+  background-color:#f9f9f9;
+  background-image:
+    radial-gradient(at 0% 0%, rgb(15, 15, 15) 0, transparent 50%),
     radial-gradient(at 50% 100%, rgb(89, 89, 89) 0, transparent 50%);
 }
 
 .gradient-bg-transactions {
   background-color: #0f0e13;
-  background-image: 
-    radial-gradient(at 0% 100%, rgb(20, 20, 20) 0, transparent 50%), 
+  background-image:
+    radial-gradient(at 0% 100%, rgb(20, 20, 20) 0, transparent 50%),
     radial-gradient(at 50% 0%, rgb(91, 91, 91) 0, transparent 50%);
 }
 
 .gradient-bg-footer {
   background-color: #0f0e13;
-  background-image: 
-    radial-gradient(at 0% 100%, rgb(49, 49, 49) 0, transparent 53%), 
+  background-image:
+    radial-gradient(at 0% 100%, rgb(49, 49, 49) 0, transparent 53%),
     radial-gradient(at 50% 150%, rgb(35, 35, 35) 0, transparent 50%);
 }
 
-.blue-glassmorphism {
-  background: rgb(39, 51, 89, 0.4);
+.black-glassmorphism {
+  background: rgba(26, 26, 26, 0.4);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5px);
@@ -62,13 +62,13 @@ body {
 
 .eth-card {
   background-color:#000000;
-  background-image: 
-    radial-gradient(at 83% 67%, rgb(10, 10, 10) 0, transparent 58%), 
-    radial-gradient(at 67% 20%, rgb(38, 38, 38) 0, transparent 59%), 
-    radial-gradient(at 88% 35%, rgb(31, 31, 31) 0, transparent 50%), 
-    radial-gradient(at 31% 91%, rgb(86, 86, 86) 0, transparent 52%), 
-    radial-gradient(at 27% 71%, rgb(75, 75, 75) 0, transparent 49%), 
-    radial-gradient(at 74% 89%, rgb(43, 43, 43) 0, transparent 51%), 
+  background-image:
+    radial-gradient(at 83% 67%, rgb(10, 10, 10) 0, transparent 58%),
+    radial-gradient(at 67% 20%, rgb(38, 38, 38) 0, transparent 59%),
+    radial-gradient(at 88% 35%, rgb(31, 31, 31) 0, transparent 50%),
+    radial-gradient(at 31% 91%, rgb(86, 86, 86) 0, transparent 52%),
+    radial-gradient(at 27% 71%, rgb(75, 75, 75) 0, transparent 49%),
+    radial-gradient(at 74% 89%, rgb(43, 43, 43) 0, transparent 51%),
     radial-gradient(at 53% 75%, rgb(0, 0, 0) 0, transparent 45%);
 }
 

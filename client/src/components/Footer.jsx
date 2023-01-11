@@ -5,17 +5,17 @@ import logo from "../../images/logo-simple.png";
 const Footer = () => (
   <div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer">
     <div className="w-full flex sm:flex-row flex-col justify-between items-center my-4">
-      <div className="flex flex-[0.5] justify-center items-center">
-        <img src={logo} alt="logo" className="w-40" />
-      </div>
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
+        <h1 className="text-white" >TECHNOLOGIES :</h1>
       <a href="https://ethereum.org/en/" className="text-white text-base text-center mx-2 cursor-pointer">Ethereum</a>
         <a href="https://metamask.io/" className="text-white text-base text-center mx-2 cursor-pointer">Metamask</a>
         <a href="https://github.com/" className="text-white text-base text-center mx-2 cursor-pointer">GitHub</a>
-        <a href="https://discord.com/" className="text-white text-base text-center mx-2 cursor-pointer">Discord</a>
+        <a href="https://www.ledger.com/" className="text-white text-base text-center mx-2 cursor-pointer">Ledger</a>
       </div>
     </div>
-
+    <div className="flex flex-[0.5] justify-center items-center">
+      <img src={logo} alt="logo" className="w-40" />
+    </div>
     <div className="flex justify-center items-center flex-col mt-5">
       <p className="text-white text-sm text-center">Submit a decentralized project to the community at:</p>
       <p className="text-white text-sm text-center font-medium mt-2">hello@decentralized-projects.com</p>
@@ -29,5 +29,3 @@ const Footer = () => (
 );
 
 export default Footer;
-
-
