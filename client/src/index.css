@@ -79,6 +79,14 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.bg-app {
+  background-color: #111111;
+}
+
+.color-violet-app {
+  color: #746e9f;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

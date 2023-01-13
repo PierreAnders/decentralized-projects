@@ -34,44 +34,18 @@ const Welcome = () => {
     }
 
     return (
-        <div className="flex w-full justify-center items-center">
+        <div className="bg-app flex w-full justify-center items-center">
           <div className="flex md:flex-row flex-col items-start justify-between md:p-10 py-10 px-4">
-            <div className="flex flex-1 justify-start flex-col md:mr-10">
-            <h1 className='text-3xl sm:text-4xl text-white text-gradient py-1'>
-                Participate in <br /> Community Projects
-            </h1>
-            <p className='text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base'>
-                Discover, support and submit decentralized projects using the ethereum network.
-            </p>
+            <div className="flex flex-1 justify-start flex-col">
             {!currentAccount && (
             <button
             type="button"
             onClick={connectWallet}
-            className="flex flex-row justify-center items-center my-5 bg-[#000000] p-3 rounded-full cursor-pointer hover:bg-[#1E0F1C]"
+            className="flex flex-row justify-center items-center my-5 bg-[#4b4b4b] p-2 rounded-lg cursor-pointer hover:bg-zinc-800 transition duration-300"
             >
-                <p className='text-white text-base font-semibold'>Connect Wallet</p> 
+                <p className='text-white text-sm font-semibold'>Connection</p>
             </button>
             )}
-                <div className='grid sm:grid-cols-3 grid-cols-2 w-full mt-10'>
-                        <a href="https://decentralized-projects.com" className={`rounded-tl-2xl ${commonStyles}`}>
-                        Education
-                        </a>
-                        <a href="https://decentralized-projects.com" className={commonStyles}>
-                        Biodiversity
-                        </a>
-                        <a href="https://decentralized-projects.com" className={`rounded-tr-2xl ${commonStyles}`}>
-                        Local Development   
-                        </a>
-                        <a href="https://decentralized-projects.com" className={`rounded-bl-2xl ${commonStyles}`}>
-                        Solidarity 
-                        </a>
-                        <a href="https://decentralized-projects.com" className={commonStyles}>
-                        Fair Trade
-                        </a>
-                        <a href="https://decentralized-projects.com" className={`rounded-br-2xl ${commonStyles}`}>
-                        DAO
-                        </a>
-                </div>
             </div>
 
             <div className='flex flex-col flex-1 items-center justify-start w-full md:mt-0 mt-10'>
@@ -81,7 +55,7 @@ const Welcome = () => {
                             <div className='w-10 h-10 rounded-full border-2 border-white flex justify-center items-center'>
                             <SiEthereum fontSize={21} color="#fff"/>
                             </div>
-                          
+
                         </div>
                         <div>
                         <p className="text-white font-light text-sm">
@@ -97,8 +71,8 @@ const Welcome = () => {
                 <div className="p-4 sm:w-96 w-full flex-col justify-start items-center white-glassmorphism">
                     <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange} />
                     <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange} />
-                    <Input placeholder="Project" name="keyword" type="text" handleChange={handleChange} />
-                    <Input placeholder="Enter Message" name="message" type="text" handleChange={handleChange} />
+                    <Input placeholder="Keyword" name="keyword" type="text" handleChange={handleChange} />
+                    <Input placeholder="Message" name="message" type="text" handleChange={handleChange} />
 
                     <div className='h-[1px] w-full bg-gray-400 my-2'/>
 
@@ -108,7 +82,7 @@ const Welcome = () => {
                         <button
                         type="button"
                         onClick={handleSubmit}
-                        className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] rounded-full curser-pointer"
+                        className="text-white w-full mt-2 border-[1px] p-2 border-[#746e9f] rounded-lg curser-pointer"
                         >
                         Send Now
                         </button>
